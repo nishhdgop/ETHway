@@ -8,18 +8,29 @@ const NavbarItem = ({ title, classProps }) => {
 const NavBar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
   return (
-    <nav className="w-full flex md:justify-center justify-between items-center p-4">
-      <div className="md:flex-[0.5] flex-initial justify-center items-center">
-        <img src={logo} alt="logo" className="w-32 cursor.pointer" />
+    <nav className="w-full flex  justify-between items-center px-60 py-50">
+      <div className=" flex-initial justify-center items-center">
+        <br></br>
+        <img
+          src={logo}
+          alt="logo"
+          className="w-44 cursor.pointer "
+          width="1500"
+          height="17"
+        />
       </div>
-      <ul className="text-white md:flex hidden list-none flex-row justify-between items-center flex-initial">
+      {/* <ul className="text-white md:flex hidden list-none flex-row justify-between items-center flex-initial">
         {["Market", "Exchange", "Tutorials", "Wallets"].map((item, index) => (
           <NavbarItem key={item + index} title={item} />
         ))}
         <li className="bg-[#2952e3] py-2 px-7 mx-4 rounded-full cursor-pointer hover:bg-[#2546bd]">
           Login
         </li>
-      </ul>
+      </ul> */}
+      {/* <h1 className="flex items-start text-white text-bold text-gradient text-5xl px-80">
+        {" "}
+        ETHelp
+      </h1> */}
       <div className="flex relative">
         {toggleMenu ? (
           <AiOutlineClose

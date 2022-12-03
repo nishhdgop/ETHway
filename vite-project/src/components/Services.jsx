@@ -22,9 +22,9 @@ const Services = () => (
     <div className="flex mf:flex-row flex-col items-center justify-between md:p-20 py-12 px-4">
       <div className="flex-1 flex flex-col justify-start items-start">
         <h1 className="text-white text-3xl sm:text-5xl py-2 text-gradient ">
-          Services that we
+          What makes
           <br />
-          continue to improve
+          ETHway special
         </h1>
         <p className="text-left my-2 text-white font-light md:w-9/12 w-11/12 text-base">
           The best choice for buying and selling your crypto assets, with the
@@ -32,24 +32,29 @@ const Services = () => (
         </p>
       </div>
 
-      <div className="flex-1 flex flex-col justify-start items-center">
+      <div className="flex-1 flex flex-col justify-start items-center text-white">
         <ServiceCard
           color="bg-[#2952E3]"
-          title="Security gurantee"
+          title="Quick and easy transactions:"
           icon={<BsShieldFillCheck fontSize={21} className="text-white" />}
-          subtitle="Security is guranteed. We always maintain privacy and maintain the quality of our products"
+          subtitle="Make speed your best friend with ETHway! With our lucid and attractive UI, transfer crypto on the go."
         />
         <ServiceCard
           color="bg-[#8945F8]"
-          title="Best exchange rates"
+          title="Receive timely Notifications:"
           icon={<BiSearchAlt fontSize={21} className="text-white" />}
-          subtitle="Security is guranteed. We always maintain privacy and maintain the quality of our products"
+          subtitle="You can now be rest assured that your ethereum has safely reached your beneficiary with our Push Protocol notifications. "
         />
         <ServiceCard
           color="bg-[#F84550]"
-          title="Fastest transactions"
-          icon={<RiHeart2Fill fontSize={21} className="text-white" />}
-          subtitle="Security is guranteed. We always maintain privacy and maintain the quality of our products"
+          title="Security guaranteed. Everytime"
+          icon={
+            <RiHeart2Fill
+              fontSize={21}
+              className="text-white text-gradient font-semibold"
+            />
+          }
+          subtitle="Take no chance with your privacy and secure your crypto with our safe payment gateway on WEB 3.0 "
         />
       </div>
     </div>

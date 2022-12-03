@@ -10,6 +10,7 @@ const App = () => {
         <Welcome />
       </div>
       <Services />
+
       <Footer />
     </div>
   );

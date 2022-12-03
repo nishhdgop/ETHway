@@ -30,7 +30,7 @@
 //       <div className="flex flex-col items-center w-full mt-3">
 //         <div className="display-flex justify-start w-full mb-6 p-2">
 //           <a
-//             href={`https://ropsten.etherscan.io/address/${addressFrom}`}
+//             href={`https://goerli.etherscan.io/address/${addressFrom}`}
 //             target="_blank"
 //             rel="noreferrer"
 //           >
@@ -41,7 +41,7 @@
 //           <a
 //             href={`https://ropsten.etherscan.io/address/${addressTo}`}
 //             target="_blank"
-//             rel="noreferrer"
+//             rel="noreferrer noopener"
 //           >
 //             <p className="text-white text-base">
 //               To: {shortenAddress(addressTo)}
@@ -88,6 +88,9 @@
 //           {[...dummyData, ...transactions].reverse().map((transaction, i) => (
 //             <TransactionsCard key={i} {...transaction} />
 //           ))}
+//           {/* {transactions.reverse().map((transaction, i) => (
+//             <TransactionsCard key={i} {...transaction} />
+//           ))} */}
 //         </div>
 //       </div>
 //     </div>
