@@ -1,6 +1,6 @@
 # ETHway
 
-The web 2.0 internet is overrun with online frauds and cybercrime activities like identity theft, payment interception, phishing and other notorious activities.
+The Web 2.0 internet is overrun with online frauds and cybercrime activities like identity theft, payment interception, phishing and other notorious activities.
 
 According to estimates, e-commerce losses to online payment fraud were estimated at 41 billion U.S. dollars globally in 2022, up from the previous year.
 
@@ -31,3 +31,26 @@ ETHway has been used to transfer GoerliETH and MATIC between different accounts.
 Push Protocol has been used to enable and get Push Notifications when the beneficiary receives the cryptocurrency from the sender.
 
 ![Logo](ETHway.png)
+
+
+### Steps to set up the Project:
+
+To install the npm packages
+```sh
+npm install
+```
+
+To run the server on local host
+```sh
+npm run dev
+```
+
+To compile the Solidity files
+```sh
+npx hardhat compile
+```
+
+To deploy the contract on GoerliETH Test Network
+```sh
+npx run hardhat --network goerli scripts/deploy.js
+```
