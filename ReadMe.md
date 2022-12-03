@@ -54,3 +54,5 @@ To deploy the contract on GoerliETH Test Network
 ```sh
 npx run hardhat --network goerli scripts/deploy.js
 ```
+#### Project Demo:
+[ETHway](https://www.youtube.com/watch?v=nUtqxppm3Bg)
